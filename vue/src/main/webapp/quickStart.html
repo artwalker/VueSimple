@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>快速开始</title>
+    <script src="js/vuejs-2.5.16.js"></script>
+</head>
+<body>
+<div id="app">{{message}}</div>
+<script>
+    new Vue({
+        el:'#app',//表示当前vue对象接管了id叫app的div区域
+        data:{
+            message:'hello vuejs'//注意不要写分号结尾
+        }
+    });
+</script>
+</body>
+</html>
